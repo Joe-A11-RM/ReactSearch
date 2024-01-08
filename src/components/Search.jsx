@@ -28,7 +28,7 @@ export default function Search() {
     }
   };
   const clear = () =>{
-    setFilterdata([]);
+    setFilterdata([])
     setEnteredword("")
   }
   const data = filtereddata.map((i) => {
